@@ -1,0 +1,3 @@
+crontab -e
+
+47 23 */2 * * /usr/bin/php /path-to-app/public/cron/calcsum.php
